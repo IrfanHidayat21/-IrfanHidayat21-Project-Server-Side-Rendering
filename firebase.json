@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "www",
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index-org.html"
+      }
+    ]
+  }
+}

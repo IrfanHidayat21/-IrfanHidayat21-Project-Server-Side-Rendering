@@ -1,0 +1,217 @@
+app-modal-doa .div-checkout {
+  width: 60%;
+  margin: 5% auto;
+}
+
+app-modal-doa .input-payment {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  background: var(--color-map);
+  margin-bottom: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  border-radius: 10px;
+  background: var(--color-white);
+  box-shadow: 0px 3px 6px #00000029;
+  transition: 0.7;
+}
+
+app-modal-doa .p-payment {
+  font-size: 12px;
+  text-align: right;
+  padding-right: 5%;
+  color: var(--color-graytxt);
+}
+
+app-modal-doa .p-login {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+app-modal-doa .div-btn {
+  width: 100%;
+  margin: auto;
+}
+
+app-modal-doa .btn-donasi4 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .15s ease;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 700;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  background-color: var(--color-primary) !important;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+app-modal-doa .btn-donasi4:hover {
+  opacity: 0.8;
+}
+
+app-modal-doa .p-intro {
+  font-size: 18px;
+  margin-left: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-hitam);
+  text-align: center;
+  width: 98%;
+}
+
+app-modal-doa .payment-total {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: var(--color-hitam);
+}
+
+app-modal-doa .item-payment {
+  display: flex;
+  border-radius: 10px;
+  width: 100%;
+  margin: auto;
+  background: var(--color-white);
+  box-shadow: 0px 3px 6px #00000029;
+  transition: 0.7;
+}
+
+app-modal-doa .item-payment>ion-label {
+  font-size: 12px;
+  color: var(--color-graytxt);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-modal-doa .label-rek {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+app-modal-doa .div-warning {
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+  border: 1px solid var(--color-primary);
+  padding-left: 15px;
+  padding-right: 15px;
+  background: var(--color-white);
+  box-shadow: 0px 3px 6px #00000029;
+  transition: 0.7;
+  font-style: italic;
+}
+
+app-modal-doa .div-warning2 {
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+  background: var(--color-white);
+  box-shadow: 0px 3px 6px #00000029;
+  transition: 0.7;
+}
+
+app-modal-doa .p-warning {
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-modal-doa .item-btn {
+  width: 100% !important;
+}
+
+app-modal-doa .label-panduan {
+  font-size: 12px !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-modal-doa .isi-panduan {
+  padding-left: 25px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+app-modal-doa .p-panduan {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+app-modal-doa .img-niat {
+  width: 55%;
+  height: auto;
+  float: right;
+  margin-bottom: 10px;
+}
+
+app-modal-doa .img-niat2 {
+  width: 70%;
+  height: auto;
+  float: right;
+  margin-bottom: 10px;
+}
+
+app-modal-doa .header-modal {
+  display: flex;
+}
+
+app-modal-doa .btn-close {
+  float: right;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) and (min-width: 0px) {
+  app-modal-doa .img-niat {
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-bottom: 15px;
+  }
+
+  app-modal-doa .img-niat2 {
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-bottom: 15px;
+  }
+
+  app-modal-doa .div-checkout {
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  app-modal-doa .p-login {
+    font-size: 22px;
+  }
+
+  app-modal-doa .payment-total {
+    font-size: 19px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  app-modal-doa .item-payment>ion-label {
+    font-size: 14px !important;
+  }
+
+  app-modal-doa .label-panduan {
+    font-size: 14px !important;
+  }
+
+  app-modal-doa .item-payment {
+    width: 100%;
+  }
+}

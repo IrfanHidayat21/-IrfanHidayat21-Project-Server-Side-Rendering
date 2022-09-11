@@ -1,0 +1,222 @@
+app-donasi-success .div-checkout {
+  width: 60%;
+  margin: 5% auto;
+}
+
+app-donasi-success .input-payment {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  background: var(--color-map);
+  margin-bottom: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+app-donasi-success .p-payment {
+  font-size: 12px;
+  text-align: right;
+  padding-right: 5%;
+  color: var(--color-graytxt);
+}
+
+app-donasi-success .p-login {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+app-donasi-success .div-btn {
+  width: 90%;
+  margin: auto;
+}
+
+app-donasi-success .btn-beranda {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .15s ease;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: auto;
+  font-weight: 700;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  background-color: var(--color-danger) !important;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+app-donasi-success .btn-beranda:hover {
+  opacity: 0.8;
+}
+
+app-donasi-success .btn-beranda:active {
+  background-color: var(--color-dodger-blue) !important;
+}
+
+app-donasi-success .btn-donasi4 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .15s ease;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: auto;
+  font-weight: 700;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  background-color: var(--color-primary) !important;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+app-donasi-success .btn-donasi4:hover {
+  opacity: 0.8;
+}
+
+app-donasi-success .btn-donasi4:active {
+  background-color: var(--color-dodger-blue) !important;
+}
+
+app-donasi-success .btn-donasi5 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .15s ease;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: auto;
+  font-weight: 700;
+  width: 100%;
+  margin: auto;
+  padding: 0 10px;
+  text-align: center;
+  height: 50px;
+  color: #fff;
+  background-color: var(--color-green-haze) !important;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+app-donasi-success .img-nobank {
+  padding: 10px;
+}
+
+app-donasi-success .p-intro {
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-hitam);
+  text-align: center;
+}
+
+app-donasi-success .payment-total {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: var(--color-hitam);
+}
+
+app-donasi-success .item-payment {
+  display: flex;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+app-donasi-success .item-payment>ion-label {
+  font-size: 12px;
+  color: var(--color-graytxt);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-donasi-success .label-rek {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+app-donasi-success .div-warning {
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  border: 1px solid var(--color-primary);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+app-donasi-success .div-warning2 {
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  border: 1px solid var(--color-primary);
+}
+
+app-donasi-success .p-warning {
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-donasi-success .item-btn {
+  width: 100% !important;
+  --border-radius: 10px;
+  border-radius: 10px;
+}
+
+app-donasi-success .label-panduan {
+  font-size: 15px !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-donasi-success .isi-panduan {
+  padding-left: 25px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+app-donasi-success .p-panduan {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+@media (max-width: 767px) and (min-width: 0px) {
+  app-donasi-success .div-checkout {
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  app-donasi-success .p-login {
+    font-size: 22px;
+  }
+
+  app-donasi-success .payment-total {
+    font-size: 19px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  app-donasi-success .item-payment>ion-label {
+    font-size: 14px !important;
+  }
+
+  app-donasi-success .label-panduan {
+    font-size: 14px !important;
+  }
+
+  app-donasi-success .item-payment {
+    width: 100%;
+  }
+}

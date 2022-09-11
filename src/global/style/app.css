@@ -1,0 +1,60 @@
+@import './variables.css';
+@import './html.css';
+@import './buttons.css';
+@import './headline.css';
+@import './link.css';
+@import './lists.css';
+@import './measure.css';
+@import './screenshot.css';
+@import './code.css';
+@import './table.css';
+@import './typography.css';
+@import './utils.css';
+/** Core CSS required for ionic components to work property */
+@import "~@ionic/core/css/core.css";
+/** Basic CSS for apps built with Ionic */
+/** Optional CSS utils that can be commented out */
+@import "~@ionic/core/css/padding.css";
+@import "~@ionic/core/css/float-elements.css";
+@import "~@ionic/core/css/text-alignment.css";
+@import "~@ionic/core/css/text-transformation.css";
+@import "~@ionic/core/css/flex-utils.css";
+
+* {
+  box-sizing: border-box;
+}
+
+*::selection,
+*::-moz-selection {
+  background: var(--color-whisper);
+}
+
+@media (max-width: 1023px) and (min-width: 0px) {
+  .modalDoaCss {
+    --width: 80%;
+    --height: 90%;
+    margin: auto;
+    --border-radius: 10px;
+  }
+
+  .modalReceiptCss {
+    --width: 80%;
+    --height: 60%;
+    margin: auto;
+    --border-radius: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modalDoaCss {
+    --width: 70%;
+    --height: 90%;
+    --border-radius: 10px;
+  }
+
+  .modalReceiptCss {
+    --width: 30%;
+    --height: 80%;
+    --border-radius: 10px;
+  }
+}

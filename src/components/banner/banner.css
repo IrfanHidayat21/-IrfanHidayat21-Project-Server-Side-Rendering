@@ -1,0 +1,245 @@
+.slideshow-container {
+ 
+    width: 100% !important;
+    padding: 0 10%;
+    height: 80%;
+  }
+  .mySlides {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+    /* max-height: 320px; */
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 10%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .img-banner {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.noneSlide {
+    display: none;
+}
+.blockSlide {
+    display: block;
+}
+/* Caption text */
+.div-text-banner {
+  background-color: #000;
+  opacity: 0.7;
+  position: relative;
+  bottom: 164px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 160px;
+  width: 100%;
+  border-radius: 8px;
+
+}
+.text {
+    color: #ffffff;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+    white-space: normal;
+    
+}
+app-banner .p-title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  opacity: 1;
+  white-space: normal;
+  line-height: 1.5;
+  cursor: pointer;
+}
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    display: none;
+    /* color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 10%; */
+  }
+
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      
+      opacity: .4;
+    
+    } 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: .4;
+    
+    } 
+    to {opacity: 1}
+  }
+  
+  app-banner .route-title a{
+    text-decoration: none;
+  }
+  /* On smaller screens, decrease text size */
+  /* @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  } */
+
+  @media screen and (max-width: 767px) {
+    .slideshow-container {
+     
+      padding: 0px 0px;
+      margin-top: -25px;
+    
+    }
+    .mySlides {
+      width: 100%;
+      /* max-height: 200px; */
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+      top: 77%;
+      
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    .img-banner {
+    height: auto;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+    .div-text-banner {
+      bottom: 0px;
+      height: 68px;
+      padding-top: 5px;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+ 
+    }
+    .text {
+      font-size: 13px;
+        
+    }
+    app-banner .p-title {
+      margin-top:0px;
+      font-size: 13px;
+      width: 100%;
+      height: 60px;
+      overflow-y: auto;
+    }
+  }
+  
+  @media (max-width: 1023px) and (min-width: 597px)  {
+    .slideshow-container {
+      padding: 0px;
+      margin-top: -25px;
+      background: #000;
+      max-height: 200px;
+    }
+
+    .mySlides {
+      text-align: center;
+      width: 100%;    
+      height: auto;
+    }
+    /* Next & previous buttons */
+    .prev, .next {
+      top: 45%;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0%;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    .img-banner {
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+    .div-text-banner {
+      bottom: 105px;
+      height: 105px;
+      padding-top: 10px;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+    }
+    .text {
+      font-size: 13px;
+        
+    }
+
+    app-banner .p-title {
+      font-size: 20px;
+    }
+  }
+
+  

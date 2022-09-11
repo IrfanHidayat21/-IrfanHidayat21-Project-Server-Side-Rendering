@@ -1,0 +1,143 @@
+app-donasi-checkout .div-checkout {
+  width: 60%;
+  margin: 5% auto;
+}
+
+app-donasi-checkout .div-payment {
+  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+app-donasi-checkout .input-payment {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  background: var(--color-map);
+  margin-bottom: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+app-donasi-checkout .item-payment {
+  display: flex;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+app-donasi-checkout .item-payment>ion-label {
+  font-size: 12px;
+  color: var(--color-graytxt);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-donasi-checkout .p-payment {
+  font-size: 12px;
+  text-align: right;
+  padding-right: 5%;
+  color: var(--color-graytxt);
+}
+
+app-donasi-checkout .p-login {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+app-donasi-checkout .div-must-login {
+  margin: 8% auto;
+}
+
+app-donasi-checkout .p-login2 {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: var(--color-danger);
+  text-align: center;
+}
+
+app-donasi-checkout .btn-donasi4 {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .15s ease;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 700;
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  text-align: center !important;
+  background-color: var(--color-primary) !important;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+app-donasi-checkout .btn-donasi4:hover {
+  opacity: 0.8;
+}
+
+app-donasi-checkout .btn-donasi4:active {
+  background-color: var(--color-dodger-blue) !important;
+}
+
+app-donasi-checkout .p-intro {
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-hitam);
+  text-align: center;
+}
+
+app-donasi-checkout .img-nobank {
+  padding: 5px;
+}
+
+app-donasi-checkout .checkbox {
+  padding: 0;
+  margin-left: -5px;
+  margin-right: 15px;
+  background: #000;
+}
+
+app-donasi-checkout .item-checkbox ion-label {
+  font-size: 14px !important;
+}
+
+app-donasi-checkout .item-checkbox:hover {
+  background: #ffffff !important
+}
+
+app-donasi-checkout a {
+  text-decoration: none;
+  color: black;
+  background: transparent;
+}
+
+@media (max-width: 767px) and (min-width: 0px) {
+  app-donasi-checkout .item-checkbox ion-label {
+    font-size: 11px !important;
+  }
+
+  app-donasi-checkout .div-checkout {
+    width: 100%;
+    margin: 5% auto;
+  }
+
+  app-donasi-checkout .p-login {
+    font-size: 22px;
+  }
+
+  app-donasi-checkout .p-login2 {
+    font-size: 22px;
+  }
+
+  app-donasi-checkout .item-payment {
+    width: 100%;
+  }
+}

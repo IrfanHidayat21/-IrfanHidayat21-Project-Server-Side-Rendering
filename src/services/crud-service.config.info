@@ -1,0 +1,6 @@
+import { cfg } from './../config/config';
+
+class CrudController{
+    public newHeaders;
+    
+}
